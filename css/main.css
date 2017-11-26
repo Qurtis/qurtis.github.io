@@ -1,0 +1,137 @@
+.left{
+	float: left;
+}
+input[type="range"]{
+	cursor: pointer;
+	max-height: 70px;
+}
+
+.detailed__buttom{
+	float: right;
+	display: inline-block;
+	background: #c2c0c0;
+	width: 15px;
+	height: 201px;
+	cursor: pointer;
+	border: 1px solid;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+.detailed__chart{
+	float: left;
+	left: -400px;
+	width: 400px;
+	position: fixed;
+	-webkit-transition: left 1s ease-out 0.5s;
+	-moz-transition: left 1s ease-out 0.5s;
+	-o-transition: left 1s ease-out 0.5s;
+	transition: left 1s ease-out 0.5s;
+	
+}
+.divide{
+	margin-top: 90px;
+}
+.detailed__chart.active{
+	left: 300px;
+}
+
+.test_result_table{
+	border-spacing: 0px;
+}
+.chart__main{
+	padding-left: 50px;
+}
+
+.test_result_table td{
+	padding: 20px 40px;
+	text-align: center;
+
+}
+
+
+
+
+.test_result_table_lb{
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+}
+
+
+.test_result_table_b{
+	
+	border-bottom: 1px solid;
+}
+.test_result_table_l{
+	
+	border-left: 1px solid;
+}
+
+
+
+
+.div__main__1{
+ 	width: 200px;
+	height: 200px;
+ 	background: gray;
+
+}
+
+.div__main__2{
+
+	width: 200px;
+	height: 200px;
+	background: #c0c0c0;
+	border: 1px solid;
+	
+}
+
+.red__range{
+	color: red;
+}
+.green__range{
+	color: green;
+}
+
+.quest{	
+	margin-left: 150px;
+	margin-top: 10px;
+}
+.quest td{
+	border: 1px solid;
+	height: 40px;
+}
+.quest__submit{
+	text-align: center;
+	background: #c9c9c9;
+}
+.number__center{
+	margin-top: 12px;
+}
+.num1{
+	width: 30px;
+	text-align: center;
+	background: #c9c9c9;
+}
+.num2{
+	padding-left: 5px;
+	width: 630px;
+	font-weight: bold;
+	background: #c9c9c9;
+}
+.num3{
+	width: 70px;
+	text-align: center;
+	background: #c9c9c9;
+}
+
+.answ1{
+	font-weight: bold;
+	text-align: center;
+}
+.answ2{
+	padding-left: 5px;
+}
+.answ3{
+	text-align: center;
+}
